@@ -18,11 +18,5 @@ namespace Snake
             p2.sym = '#';
             p2.Draw();
         }
-
-        static void Draw(int x, int y, char sym)
-        {
-            Console.SetCursorPosition(x, y);
-            Console.WriteLine(sym);
-        }
     }
 }
